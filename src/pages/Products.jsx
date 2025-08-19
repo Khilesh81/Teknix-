@@ -86,7 +86,7 @@ const Products = () => {
               />
               {filteredData?.length > 0 ? (
                 <div className="flex flex-col justify-center items-center">
-                  <div className="grid md:grid-cols-4 grid-cols-2 md:gap-7 mt-10">
+                  <div className="grid md:grid-cols-4 grid-cols-2 md:gap-7 gap-4 mt-10">
                     {filteredData
                       ?.slice(page * 8 - 8, page * 8)
                       .map((product, index) => {
@@ -119,3 +119,4 @@ const Products = () => {
 };
 
 export default Products;
+

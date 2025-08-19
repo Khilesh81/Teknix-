@@ -76,9 +76,13 @@ const Footer = () => {
           &copy; {new Date().getFullYear()}{" "}
           <span className="text-red-500">Teknix</span>. All rights reserved
         </p>
+        <p>
+          Designed and developed with ❤️ by <span className="text-red-500" >Rao Sahab</span>
+        </p>
       </div>
     </footer>
   );
 };
 
 export default Footer;
+

@@ -26,6 +26,7 @@ const SingleProduct = () => {
 
   useEffect(() => {
     getSingleProduct();
+    window.scrollTo(0, 0);
   }, []);
 
   const OriginalPrice = Math.round(
@@ -108,3 +109,4 @@ const SingleProduct = () => {
 };
 
 export default SingleProduct;
+

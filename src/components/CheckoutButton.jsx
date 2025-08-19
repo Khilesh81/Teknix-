@@ -12,7 +12,7 @@ export default function CheckoutButton() {
     } else {
       // ❌ Not signed in → redirect to your sign-in page with redirect back to cart
       window.location.href =
-        "https://mighty-bluejay-64.accounts.dev/sign-in?redirect_url=http%3A%2F%2Flocalhost%3A5173%2Fcart";
+        "https://mighty-bluejay-64.accounts.dev/sign-in?redirect_url=https%3A%2F%2Fteknix.netlify.app%2Fcart";
     }
   };
 
@@ -27,3 +27,4 @@ export default function CheckoutButton() {
     </div>
   );
 }
+

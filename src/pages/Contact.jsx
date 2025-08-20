@@ -16,7 +16,7 @@ const Contact = () => {
             <div>
               <p><strong>📍 Address:</strong> 123 Tech Lane, Alwar, India</p>
               <p><strong>📧 Email:</strong> support@teknix.com</p>
-              <p><strong>📞 Phone:</strong> +91 98765 43210</p>
+              <p><strong>📞 Phone:</strong> +91 9350477108</p>
             </div>
           </div>
 
@@ -43,5 +43,6 @@ const Contact = () => {
     </div>
   );
 };
+
 
 export default Contact;
